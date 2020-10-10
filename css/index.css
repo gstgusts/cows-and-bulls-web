@@ -1,0 +1,18 @@
+.container {
+    padding: 10px;
+}
+
+button {
+    background-color: #dadada;
+    border: solid 1px #525252;
+    padding: 3px 7px 3px 7px;
+}
+
+button > img,
+button > span {
+    vertical-align: middle;
+}
+
+.input-invalid {
+   border: solid 1px red;
+}

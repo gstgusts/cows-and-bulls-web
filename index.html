@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cows and Bulls</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/cows-and-bulls-result.js"></script>
+        <script src="js/cows-and-bulls.js"></script>
+        <script src="js/index.js"></script>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div style="width: 300px;">
+            <div class="container" style="background-color:dimgrey;">
+                <button id="btnRestart">
+                    <img src="img/reload.svg">
+                    <span>Restart</span>
+                </button>
+            </div>
+            <div class="container" style="background-color:blanchedalmond">
+                <label for="txtInput">Input:</label>
+                <input type="number" id="txtInput" min="1000" max="9999" required>
+                <button id="btnOk">
+                    <img src="img/enter.svg">
+                    <span>Ok</span>
+                </button>
+            </div>
+            <div class="container" style="background-color:darkgrey">
+                <table style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <th>Nr.</th>
+                            <th>Number</th>
+                            <th>Bulls</th>
+                            <th>Cows</th>
+                        </tr>
+                    </thead>
+                    <tbody id="guessResult">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
